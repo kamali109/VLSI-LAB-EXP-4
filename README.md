@@ -1,4 +1,4 @@
-![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/055e92e0-9cd5-43ee-b1df-39a47309e42c)![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/4b7a9d76-ff58-45ae-957e-6c97997d3a59)# VLSI-LAB-EXP-4
+
 SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
 AIM: 
