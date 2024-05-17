@@ -174,6 +174,7 @@ endmodule
 # OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/8c29c966-0b3b-4ce2-a919-8ef304ec443e)
 
+# UPDOWN COUNTER:
 # CODE:
 ```
 module updown_counter(clk,rst,updown,out);
