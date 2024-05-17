@@ -24,33 +24,9 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 ```
 # LOGIC DIAGRAM**
-
-SR FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
-
-
-JK FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
-
-T FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
-
-
-D FLIPFLOP
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
-
-
-COUNTER
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
-
-# VERILOG CODE:
-
 # D FLIP FLOP :
+![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/c7aed3ac-d838-49bb-90ee-fb5db74e1d63)
+# CODE:
 ```
 module dff(d,clk,rst,q);
 input d,clk,rst;
@@ -67,7 +43,10 @@ endmodule
 # OUTPUT WAVEFORM
  ![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/9b80644c-4c1e-4fdc-b316-141a352e3fd5)
 
-# CODE JK FLIP FLOP:
+# JK FLIP FLOP:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/3d275988-5ade-4afe-a883-a434143041a3)
+
+# CODE:
 ```
   module JK_flipflop (q, q_bar, j,k, clk, reset);
   input j,k,clk, reset;
@@ -92,7 +71,10 @@ endmodule
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/6a8331bc-36d3-40d5-ad71-b530ad53f49a)
 
 
-# CODE MOD 10 COUNTER:
+# MOD 10 COUNTER:
+![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/5ad8810d-a5bc-4bcc-afed-e1812e59a7c9)
+
+# CODE: 
 ```
 module counter(
 input clk,rst,enable,
@@ -143,7 +125,10 @@ endmodule
 # OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/6208762f-456d-4dfa-8235-4daf57db0f31)
 
-# CODE SR FLIPFLOP :
+# SR FLIPFLOP :
+![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/20440464-d49a-44f8-a3e2-2f8e531801ae)
+
+# CODE:
 ```
   module SR_flipflop (q, q_bar, s,r, clk, reset);
   input s,r,clk, reset;
@@ -167,7 +152,10 @@ endmodule
 # OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/61b4bab0-27e9-4fe8-89cd-8351f81ecdfb)
 
-# CODE T FLIP FLOP :
+#  T FLIP FLOP :
+![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/7d07796f-3560-4347-a34d-66caa577cc09)
+
+# CODE:
 ```
 module tff (t,clk, rstn,q);  
  input t,clk, rstn;
@@ -186,7 +174,7 @@ endmodule
 # OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-4/assets/160600794/8c29c966-0b3b-4ce2-a919-8ef304ec443e)
 
-# CODE UP DOWN COUNTER :
+# CODE:
 ```
 module updown_counter(clk,rst,updown,out);
 input clk,rst,updown;
